@@ -10,11 +10,14 @@ public class TradingOrder {
     public double quantity;
     public String ticker;
     public Date orderDate;
+    public int direction;
 
-    public TradingOrder(AssetType _type, double q, Date _date)
+
+    public TradingOrder(AssetType _type, double q, Date _date, int _direction)
     {
         _type = assetType;
         quantity = q;
         orderDate = _date;
+        direction = _direction;
     }
 }

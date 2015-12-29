@@ -13,10 +13,12 @@ import java.util.List;
 public class InvestmentClub {
     List<Investor> investors;
     protected double aum;
+    FeeModel fee_model;
 
     InvestmentClub()
     {
         investors = new ArrayList<Investor>();
+        fee_model = new FeeModel();
     }
 
     void OnboardInvestor(Date _d)
@@ -27,7 +29,7 @@ public class InvestmentClub {
     void update(Date _d)
     {
         for(Investor i: investors)
-            i.update(_d);
+            i.update(_d, fee_model);
     }
 
     double GetInvestmentClubAUM()

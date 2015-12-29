@@ -18,7 +18,9 @@ public abstract class Quotes {
     static void uploadQuotes() {
         DateFormat format = new SimpleDateFormat("dd.MM.yyyy", Locale.ENGLISH);
 
-        String fileName = "C:\\Users\\Mikhail\\IdeaProjects\\Simulation\\DailyPrices.csv";
+        //String fileName = "C:\\Users\\Mikhail\\IdeaProjects\\Simulation\\DailyPrices.csv";
+        String fileName = "C:\\Users\\myandreev\\IdeaProjects\\MyProject\\DailyPrices.csv";
+
         try {
             BufferedReader br = new BufferedReader(new FileReader(fileName));
             String strLine = null;

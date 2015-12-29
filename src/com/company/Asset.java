@@ -20,4 +20,20 @@ public class Asset extends FinancialInstrument {
     {
         return Quotes.GetQuote(assetType, Simulator.currentDate);
     }
+
+    double getPnL()
+    {
+        if(averageOpenPrice > 0.)
+            return (getCurrentPrice() - averageOpenPrice) / averageOpenPrice;
+        else
+            return 0.0;
+    }
+
+    double getPnlAmount()
+    {
+        if(averageOpenPrice > 0.)
+            return (getCurrentPrice() - averageOpenPrice) / averageOpenPrice * quantity;
+        else
+            return 0.0;
+    }
 }

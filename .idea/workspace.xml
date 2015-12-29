@@ -2,23 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df6184a6-8a9c-4956-b3e5-604d1eabfbc5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/Asset.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/FinancialInstrument.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/InvestmentClub.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/Portfolio.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/PortfolioState.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/Quotes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/RiskProfile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/Simulator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/TradingOrder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/FeeModel.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Main.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Simulation/com/company/Investor.class" afterPath="$PROJECT_DIR$/out/production/Simulation/com/company/Investor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Simulation/com/company/Main.class" afterPath="$PROJECT_DIR$/out/production/Simulation/com/company/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Simulation.iml" afterPath="$PROJECT_DIR$/Simulation.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Asset.java" afterPath="$PROJECT_DIR$/src/com/company/Asset.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/FinancialInstrument.java" afterPath="$PROJECT_DIR$/src/com/company/FinancialInstrument.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/InvestmentClub.java" afterPath="$PROJECT_DIR$/src/com/company/InvestmentClub.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Investor.java" afterPath="$PROJECT_DIR$/src/com/company/Investor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Portfolio.java" afterPath="$PROJECT_DIR$/src/com/company/Portfolio.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Quotes.java" afterPath="$PROJECT_DIR$/src/com/company/Quotes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Simulator.java" afterPath="$PROJECT_DIR$/src/com/company/Simulator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/TradingOrder.java" afterPath="$PROJECT_DIR$/src/com/company/TradingOrder.java" />
     </list>
     <ignored path="Simulation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,21 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Simulator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Simulator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,11 +48,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Investor.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Investor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Investor.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6451613">
+              <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#AddAdditionalInvestment#0;class#Investor#0" expanded="false" />
+                <element signature="method#getDifferenceDays#0;class#Investor#0" expanded="false" />
+                <element signature="method#createEmptyDailyBlockOrder#0;class#Investor#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeeModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/FeeModel.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -76,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/FinancialInstrument.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/InvestmentClub.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="31" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="31" />
+              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,18 +95,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Portfolio.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Portfolio.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Portfolio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40050378">
-              <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+            <state vertical-scroll-proportion="-10.666667">
+              <caret line="142" column="48" selection-start-line="142" selection-start-column="48" selection-end-line="142" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#856#870#0" expanded="true" />
-                <element signature="e#1583#1597#0" expanded="true" />
-                <element signature="method#getPortfolioAllocation#0;class#Portfolio#0" expanded="false" />
-                <element signature="method#update#0;class#Portfolio#0" expanded="false" />
+                <element signature="method#createPortfolioAllocation#0;class#Portfolio#0" expanded="false" />
+                <element signature="method#createInitialPortfolioOrder#0;class#Portfolio#0" expanded="false" />
                 <element signature="method#AddCash#0;class#Portfolio#0" expanded="false" />
+                <element signature="method#getCurrentValue#0;class#Portfolio#0" expanded="false" />
                 <element signature="method#getPortfolioDrift#0;class#Portfolio#0" expanded="false" />
                 <element signature="method#getROI#0;class#Portfolio#0" expanded="false" />
               </folding>
@@ -117,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/Asset.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <caret line="34" column="87" selection-start-line="34" selection-start-column="87" selection-end-line="34" selection-end-column="87" />
               <folding />
             </state>
           </provider>
@@ -127,7 +127,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/Quotes.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="40" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="40" />
+              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,7 +139,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/TradingOrder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -180,22 +180,24 @@
         <option value="$PROJECT_DIR$/src/InvestmentClub.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/PortfolioState.java" />
-        <option value="$PROJECT_DIR$/src/com/company/FinancialInstrument.java" />
+        <option value="$PROJECT_DIR$/src/com/company/RiskProfile.java" />
         <option value="$PROJECT_DIR$/src/com/company/Quotes.java" />
         <option value="$PROJECT_DIR$/src/com/company/TradingOrder.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Asset.java" />
         <option value="$PROJECT_DIR$/src/com/company/InvestmentClub.java" />
+        <option value="$PROJECT_DIR$/src/com/company/FeeModel.java" />
         <option value="$PROJECT_DIR$/src/com/company/Simulator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/RiskProfile.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Investor.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Asset.java" />
+        <option value="$PROJECT_DIR$/src/com/company/FinancialInstrument.java" />
         <option value="$PROJECT_DIR$/src/com/company/Portfolio.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Investor.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1378" />
-    <option name="height" value="744" />
+    <option name="x" value="-1703" />
+    <option name="y" value="67" />
+    <option name="width" value="1449" />
+    <option name="height" value="893" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -222,31 +224,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Simulation" />
+              <option name="myItemId" value="MyProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Simulation" />
+              <option name="myItemId" value="MyProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Simulation" />
+              <option name="myItemId" value="MyProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Simulation" />
+              <option name="myItemId" value="MyProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Simulation" />
+              <option name="myItemId" value="MyProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -260,11 +263,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Simulation" />
+              <option name="myItemId" value="MyProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Simulation" />
+              <option name="myItemId" value="MyProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -282,18 +285,21 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/GitHub.appref-ms" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="myproject" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
@@ -558,25 +564,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1378" height="744" extended-state="1" />
+    <frame x="-1703" y="67" width="1449" height="893" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32747805" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2672522" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2665198" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25329632" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39814815" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -593,7 +599,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="17" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -602,6 +608,107 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Simulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Investor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#AddAdditionalInvestment#0;class#Investor#0" expanded="false" />
+            <element signature="method#getDifferenceDays#0;class#Investor#0" expanded="false" />
+            <element signature="method#createEmptyDailyBlockOrder#0;class#Investor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/FinancialInstrument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/InvestmentClub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Portfolio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#createPortfolioAllocation#0;class#Portfolio#0" expanded="false" />
+            <element signature="method#createInitialPortfolioOrder#0;class#Portfolio#0" expanded="false" />
+            <element signature="method#AddCash#0;class#Portfolio#0" expanded="false" />
+            <element signature="method#getCurrentValue#0;class#Portfolio#0" expanded="false" />
+            <element signature="method#getPortfolioDrift#0;class#Portfolio#0" expanded="false" />
+            <element signature="method#getROI#0;class#Portfolio#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Asset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Quotes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="40" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/TradingOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/RiskProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -624,7 +731,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#AddAdditionalInvestment#0;class#Investor#0" expanded="false" />
+            <element signature="method#getDifferenceDays#0;class#Investor#0" expanded="false" />
+            <element signature="method#createEmptyDailyBlockOrder#0;class#Investor#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -652,11 +764,10 @@
           <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#856#870#0" expanded="true" />
-            <element signature="e#1583#1597#0" expanded="true" />
-            <element signature="method#getPortfolioAllocation#0;class#Portfolio#0" expanded="false" />
-            <element signature="method#update#0;class#Portfolio#0" expanded="false" />
+            <element signature="method#createPortfolioAllocation#0;class#Portfolio#0" expanded="false" />
+            <element signature="method#createInitialPortfolioOrder#0;class#Portfolio#0" expanded="false" />
             <element signature="method#AddCash#0;class#Portfolio#0" expanded="false" />
+            <element signature="method#getCurrentValue#0;class#Portfolio#0" expanded="false" />
             <element signature="method#getPortfolioDrift#0;class#Portfolio#0" expanded="false" />
             <element signature="method#getROI#0;class#Portfolio#0" expanded="false" />
           </folding>
@@ -711,14 +822,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Simulation.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.317757">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#AddAdditionalInvestment#0;class#Investor#0" expanded="false" />
+            <element signature="method#getDifferenceDays#0;class#Investor#0" expanded="false" />
+            <element signature="method#createEmptyDailyBlockOrder#0;class#Investor#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -726,25 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/TradingOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Quotes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="40" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -756,39 +846,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Simulator.java">
+    <entry file="file://$PROJECT_DIR$/Simulation.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27331188">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Quotes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Asset.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Simulator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/FinancialInstrument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/InvestmentClub.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="31" />
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/TradingOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -802,27 +902,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Investor.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/FinancialInstrument.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Portfolio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40050378">
-          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+        <state vertical-scroll-proportion="-10.666667">
+          <caret line="142" column="48" selection-start-line="142" selection-start-column="48" selection-end-line="142" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#856#870#0" expanded="true" />
-            <element signature="e#1583#1597#0" expanded="true" />
-            <element signature="method#getPortfolioAllocation#0;class#Portfolio#0" expanded="false" />
-            <element signature="method#update#0;class#Portfolio#0" expanded="false" />
+            <element signature="method#createPortfolioAllocation#0;class#Portfolio#0" expanded="false" />
+            <element signature="method#createInitialPortfolioOrder#0;class#Portfolio#0" expanded="false" />
             <element signature="method#AddCash#0;class#Portfolio#0" expanded="false" />
+            <element signature="method#getCurrentValue#0;class#Portfolio#0" expanded="false" />
             <element signature="method#getPortfolioDrift#0;class#Portfolio#0" expanded="false" />
             <element signature="method#getROI#0;class#Portfolio#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Asset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="87" selection-start-line="34" selection-start-column="87" selection-end-line="34" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/FeeModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Investor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6451613">
+          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#AddAdditionalInvestment#0;class#Investor#0" expanded="false" />
+            <element signature="method#getDifferenceDays#0;class#Investor#0" expanded="false" />
+            <element signature="method#createEmptyDailyBlockOrder#0;class#Investor#0" expanded="false" />
           </folding>
         </state>
       </provider>
